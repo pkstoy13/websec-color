@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.style.backgroundColor = color;
       message.appendChild(
         document.createElement("p")
-      ).textContent = `You are ${n}, your favorite color is ${color}, and your birthday is ${bday}`;
+      ).textContent = `You are ${n},\nyour favorite color is ${color},\nand your birthday is ${bday}`;
     } else alert("Complete All Fields");
   });
 });
